@@ -1,0 +1,26 @@
+console.log('loaded script.js');
+
+var json_objects = ''
+
+function handleResponse(data){
+    console.log('Got from server' + data);
+    json_objects = jQuery.parseJSON(data)
+}
+
+function handleClick(e){
+    var text = $('#text').val();
+    console.log('user typed' + text);
+    $.ajax('/rpc', {
+	type: 'POST',
+	data: {
+	    text: text
+	},
+	success: handleResponse
+    });
+}
+
+$(document).ready(function(){
+    $('#submitBtn').click(handleClick);
+})
+
+
