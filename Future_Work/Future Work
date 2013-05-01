@@ -1,7 +1,14 @@
+About AcuaPing:
+
+By the moment, AcuaPing is a prototipe; it has the grafic interface and some of it's functions are working. This time, it yet doesn't have the webservices, but it's working on it.
+
 To future versions of AcuaPing:
 
 - It will have a visualitation of the atmospheric CO2 estimated per year.
 
-- It'll send reports via eMail to local authorities to do the right test for the water. 
+- It'll send reports via eMail to local authorities to do the right test for the water.
 
-
+Pullution CO2
+Is a web application that aims to solve the problem that despite having much information about CO2 levels in the atmosphere, the visualization of information is very unappealing to people interested in the information and doesn't have the technical knowledge necessary to analyze the data in the format in which they are.
+Currently, the application allows viewing of CO2 levels, although the display must be enhanced to allow the user to interact with the application.
+Future work aims to improve the way you view CO2 levels as well as display the condition of the ozone layer, solar radiation levels and other data relevant to the state of the weather conditions on the planet.
